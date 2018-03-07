@@ -1,5 +1,7 @@
 # hc-built-error-files
 
+The end goal of this research is to compile the holochain code using `gomobile` to have a java package, and an .aar android archive which could be included as libraries into a native app.
+
 Current status: `gomobile bind -target android github.com/Holochain/holochain-proto` command is now successfully running and generating files, but there are lots of methods and data types that it would seem that it can't implement (yet). It depends on my holochain branch too: https://github.com/Holochain/holochain-proto/tree/for-mobile-build. The hope is to fix the unimplemented ones, but it may be too much work and not worth it, especially since we really don't know that it would for sure work at the end of all that.
 
 My research to get this far is here: https://paper.dropbox.com/doc/Holochain-on-Android-research-qqoos392BFMmvjGg5vfZn
